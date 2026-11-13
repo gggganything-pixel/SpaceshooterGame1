@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Space Shooter</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="game-shell">
+      <div class="hud">
+        <div><span>Score</span><strong id="score">0</strong></div>
+        <div><span>Lives</span><strong id="lives">3</strong></div>
+      </div>
+      <canvas id="gameCanvas" width="960" height="600" aria-label="Space shooter game"></canvas>
+      <div class="panel">
+        <p>Move: WASD / Arrow Keys</p>
+        <p>Shoot: Space</p>
+      </div>
+    </div>
+    <script src="game.js"></script>
+  </body>
+</html>
